@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:backgroundTint="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvReportQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quality: Safe"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvReportConfidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confidence: 95%"
+            android:textSize="14sp"
+            android:textColor="#666666"/>
+
+        <TextView
+            android:id="@+id/tvReportEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent by: analyst@gmail.com"
+            android:textSize="14sp"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvReportLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loc: 0.0, 0.0"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvReportStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="#D32F2F"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

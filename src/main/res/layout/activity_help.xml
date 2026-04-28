@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Support"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. How to Analyze Water?\nClick on 'Detect via Camera' or 'Upload from Gallery'. Point the camera at a water sample or select an image. The AI will tell you if it's Safe or Unsafe.\n\n2. How to Submit a Report?\nAfter analysis, click the green 'Submit Report' button. This will send your GPS location and result to the Admin.\n\n3. How to View Map?\nClick on 'Water Quality Map' to see reports from all analysts.\n\n4. Contact Support:\nEmail: support@waterquality.com"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"/>
+
+    </LinearLayout>
+</ScrollView>

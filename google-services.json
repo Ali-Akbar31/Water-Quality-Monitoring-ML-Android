@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "681358463546",
+    "firebase_url": "https://waterqualityai-default-rtdb.firebaseio.com",
+    "project_id": "waterqualityai",
+    "storage_bucket": "waterqualityai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681358463546:android:8fdb99157ad032c0dc1b03",
+        "android_client_info": {
+          "package_name": "com.example.waterqualitymonitor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi_xFqYOE6y1EyoUHQHGBaVbKa9cYTbeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
